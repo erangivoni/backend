@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "livecycle-task"
+  },
+  "keywords": [
+    "package"
+  ],
+  "author": "eran",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "dockerode": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "http": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "ws": "^8.14.2",
+    "xterm": "^5.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
